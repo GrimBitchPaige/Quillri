@@ -5,7 +5,7 @@
   font-weight: 400;
 
   color: #121e2c;
-  background-color: #f6f6f6;
+  background-color: #75a16f;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -47,6 +47,7 @@
   appearance: none;
   color: aquamarine;
   padding: 0;
+  padding-bottom: 4px;
   margin: 0;
   border: none;
   display: inline-flex;
@@ -54,6 +55,7 @@
   align-items: center;
   width: 30px;
   background-color: transparent;
+  z-index: 1000;
 }
 .titlebar button:hover {
   background: #26384d;

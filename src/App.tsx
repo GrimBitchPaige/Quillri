@@ -5,6 +5,8 @@ import "./App.css";
 import Titlebar from "./Titlebar";
 import { getCurrentWindow } from "@tauri-apps/api/window";
 
+import Editor from "./PlainTextEditor";
+
 const appWindow = getCurrentWindow();
 
 const minimizeButton = document.getElementById("titlebar-minimize");
@@ -26,9 +28,11 @@ closeButton?.addEventListener("click", async () => {
 function App() {
   
   return (
-    <div className="app-container">
+    <div id="app-container">
       <Titlebar/>
-      <main className="container">
+
+      <main className="main-content">
+        <h1>TEST</h1>
       </main>
     </div>
   );
