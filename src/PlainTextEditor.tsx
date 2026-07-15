@@ -10,7 +10,7 @@ const initialConfig = {
   onError: (error: Error) => console.error(error),
 };
 
-export default function Editor() {
+function Editor() {
   return (
     <LexicalComposer initialConfig={initialConfig}>
       <PlainTextPlugin
@@ -21,3 +21,5 @@ export default function Editor() {
     </LexicalComposer>
   );
 }
+
+export default Editor
